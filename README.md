@@ -40,4 +40,4 @@ Create a verification channel in your Discord server and ensure the premissions 
 
 Then you can create a webhook for your verification channel, input this webhook and your recently created OAuth link on this website https://oauth-link-2-embed.onrender.com.
 
-Once you press send a Discord embed with your OAuth link should swiftly apear.
+Once you press send, a Discord embed with your OAuth link should apear.
