@@ -3,7 +3,7 @@
 > **Disclaimer:**
 > This code is intended for educational purposes. Users are responsible for ensuring its ethical use and compliance with applicable laws. The author disclaims any liability for misuse or damages resulting from the code's application.
 
-https://discord.gg/mFxdTZtbqT <<< Support
+[Discord](https://smple.bio/timmy) <<< Support
 
 1. Begin by downloading the necessary files from the repository.
 
@@ -38,6 +38,6 @@ Create a verification channel in your Discord server and ensure the premissions 
   Create public threads,
   Create private threads
 
-Then you can create a webhook for your verification channel, input this webhook and your recently created OAuth link on this website https://oauth-link-2-embed.onrender.com.
+Then you can create a webhook for your verification channel, input this webhook and your recently created OAuth link on this [website](https://ratembed.onrender.com/).
 
 Once you press send, a Discord embed with your OAuth link should apear.
