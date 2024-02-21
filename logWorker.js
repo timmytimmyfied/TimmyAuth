@@ -93,7 +93,7 @@ async function discordEmbed () {
           },
           {
             name: '**IP:**',
-            value: '```' + (clientIP || 'N/A') + '```', // Replace 'clientIP' with the actual IP value or variable
+            value: '```' + (clientIP || 'N/A') + '```',
             inline: true,
           },
           {
